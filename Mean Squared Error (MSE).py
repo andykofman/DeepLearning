@@ -15,7 +15,7 @@ y_batch = np.array ([1.0,0.0,1.0,0.0])
 # Step 2: Initialize weights and bias (parameters)
 
 w = np.array([0.5,-0.3,0.8])
-b = 40
+b = 38
 
 # Step 3: Make predictions
 
