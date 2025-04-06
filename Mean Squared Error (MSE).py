@@ -15,7 +15,7 @@ y_batch = np.array ([1.0,0.0,1.0,0.0])
 # Step 2: Initialize weights and bias (parameters)
 
 w = np.array([0.5,-0.3,0.8])
-b = 1.0
+b = 40
 
 # Step 3: Make predictions
 
@@ -29,7 +29,7 @@ def calculate_mse(p_batch, y_batch): # p_batch --> predictions, y_batch --> true
 
 # Step 5: Training Loop
 learning_rate = 0.01
-num_epochs = 500 
+num_epochs = 500
 
 for epoch in range (num_epochs):
     # Forward Pass
