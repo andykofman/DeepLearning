@@ -32,6 +32,15 @@ learning_rate = 0.01
 num_epochs = 500
 
 for epoch in range (num_epochs):
+
+# Computing derivatives for nested functions using the chain rule
+# involves two sets of steps:
+#  1- we perform a “forward pass,” passing the input successively
+# forward through a series of operations and saving the quantities computed as
+# we go.
+# 2- we use those quantities to compute the appropriate derivatives during the
+# backward pass.
+
     # Forward Pass
     p_batch = predict(X, w, b)
 
