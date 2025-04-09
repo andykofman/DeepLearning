@@ -5,13 +5,15 @@ from forward_linear_regression import forward_Linear_Regression
 
 def test_forward_linear_regression():
     # Create sample test data
-    X_batch = np.array([[1, 2], [3, 4], [5, 6]])  # 3 samples, 2 features each
+    X_batch = np.array([[1, 2],
+                        [3, 4],
+                        [5, 6]])  # 3 samples, 2 features each
     y_batch = np.array([[2], [4], [6]])  # 3 samples, 1 target value each
     
     # Create sample weights
     weights: Dict[str, ndarray] = {
         'W': np.array([[0.5], [0.5]]),  # 2x1 weight matrix
-        'B': np.array([[0.1]])          # 1x1 bias matrix
+        'B': np.array([[0.5]])          # 1x1 bias matrix
     }
     
     # Run the forward pass
