@@ -1,7 +1,7 @@
 import numpy as np
 from typing import Dict, Tuple, Union
 from numpy import ndarray
-from forward_Linear_Regression import forward_Linear_Regression
+from forward_linear_regression import forward_Linear_Regression  # Fixed import statement
 
 def test_forward_linear_regression():
     # Create sample test data
